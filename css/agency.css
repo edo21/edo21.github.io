@@ -753,3 +753,16 @@ body {
   max-height:260px; 
   max-width:360px;
 }
+
+input::-webkit-input-placeholder {
+  color: #e74c3c;
+}
+input:-moz-placeholder {
+  color: #e74c3c;
+}
+input:-ms-input-placeholder {
+  color: #e74c3c;
+}
+input[placeholder] {
+  color: #2980b9 !important;
+}

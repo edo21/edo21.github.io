@@ -101,8 +101,10 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #5c3149;
-  border-color: #5c3149;
+  /*background-color: #5c3149;
+  border-color: #5c3149;*/
+  background-color: #D30677;
+  border-color: #D30677;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -116,8 +118,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: #ffc34f;
-  background-color: #5c3149;
-  border-color: #5c3149;
+  background-color: #D30677;
+  border-color: #D30677;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -226,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/02.JPG');
+  background-image: url('../img/01.JPG');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -554,7 +556,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
+  background-color: #12313e;
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -746,7 +748,7 @@ body {
 }
 
 #titulo{
-  color:#00b588;
+  color:#469493;
 }
 
 #imagenes{
@@ -765,4 +767,38 @@ input:-ms-input-placeholder {
 }
 input[placeholder] {
   color: #2980b9 !important;
+}
+
+.contenido{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 40%;
+    z-index: 2000;
+}
+
+.social li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    width: 30px;
+    height: 35px;
+    padding: 8px;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+.social li a:hover{
+  background-color: black;
+  padding: 10px 30px;
+}
+
+#iconofb{
+background-color: #222283;
+}
+
+#iconoflickr{
+  background-color: #ff0084;
 }

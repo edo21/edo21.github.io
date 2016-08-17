@@ -102,9 +102,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
   color: white;
   /*background-color: #5c3149;
-  border-color: #5c3149;*/
-  background-color: #D30677;
-  border-color: #D30677;
+  border-color: #D30677;*/
+  background-color: #be1723;
+  border-color: #be1723;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -118,8 +118,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: #ffc34f;
-  background-color: #D30677;
-  border-color: #D30677;
+  background-color: #be1723;
+  border-color: #be1723;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -228,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/01.JPG');
+  background-image: url('../img/03.JPG');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -774,7 +774,7 @@ input[placeholder] {
     padding: 0;
     position: fixed;
     right: 0;
-    top: 40%;
+    top: 44%;
     z-index: 2000;
 }
 
@@ -785,14 +785,14 @@ input[placeholder] {
     font-size: 25px;
     width: 30px;
     height: 35px;
-    padding: 8px;
+    padding: 8px 5px;
     -webkit-transition:all 500ms ease;
     -o-transition:all 500ms ease;
     transition:all 500ms ease;
 }
 .social li a:hover{
-  background-color: black;
-  padding: 10px 30px;
+  background-color: black !important;
+  padding: 5px 5px;
 }
 
 #iconofb{
